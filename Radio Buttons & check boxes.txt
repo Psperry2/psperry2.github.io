@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Text Email and URL Input Types</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	</head>
+	
+	<body>
+		<form action=" " id="questions" methods="post" name="questions">
+		
+			<input type="radio" name="favcolor" value="blue" id="blue"><label for="blue"blue></label><br>
+			<!-- radio button allows user to only pick one answer-->
+			<!--check box allows user to pick multiple answers -->
+			<!-- value = blue is information that will be sent to data base, user will not see value>
+			<!--ID often matches calue-->
+		<input type="submit">
+		</form>
+	</body>
+	</html>
