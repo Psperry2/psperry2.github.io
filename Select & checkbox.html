@@ -43,11 +43,16 @@
 			
 			<!--mulitple attribute allows user to pick more than one option-->
 			<!--size attribute refers to how many options are visible at once without scrolling-->
-			
-				<option value="mushroom">Mushroom</option>
-				<option value="onions">Onions</option>
-				<option value="pepperoni">Pepperoni</option>
-				<option value="sausage">Suasage</option>
+			<!--optgroup element add category labels to the list of options
+			<optgroup label="labeltext">...</optgroup>  -->
+				<optgroup label+"veggie">
+				  <option value="mushroom">Mushroom</option>
+				  <option value="onions">Onions</option>
+			    </optgroup>
+				<outgroup label="meats">
+				  <option value="pepperoni">Pepperoni</option>
+				  <option value="sausage">Sausage</option>
+				</optgroup>
 				
 			</select>
 		
