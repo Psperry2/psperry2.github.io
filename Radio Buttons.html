@@ -8,19 +8,7 @@
 	
 	<body>
 		<form action=" " id="questions" methods="post" name="questions">
-			<!--Allows user to choose b/t multiple options-->
-			<!--fieldset and legend are used to group radio buttons or checkboxes together
-			and provide the question that goes with them>
-			<!__EXAMPLE
-				<feildset>
-				<legend> Question for radio buttons/checkboxes</legend>
-				...
-				<fieldset>-->
-				
-			<fieldset>
-			
-			<legend>What is your favorite color?</legend>	
-			
+		
 			<input type="radio" name="favcolor" value="blue" id="blue"><label for="blue">blue</label><br>
 			<!-- radio button allows user to only pick one answer-->
 			<!--check box allows user to pick multiple answers -->
@@ -31,16 +19,8 @@
 			<input type="radio" name="favcolor" value="red" id="red"><label for="red">red</label><br>
 			<input type="radio" name="favcolor" value="yellow" id="yellow"><label for="yellow">yellow</label><br>
 			<input type="radio" name="favcolor" value="orange" id="orange" checked><label for="orange">orange</label><br>
-		
-		    </fieldset>
-		    <br>
-		    
-		    <!--using check box now, check box allows you to select more than one option-->
-		    
-		    <input type="checkbox" name="favcolor" value="red" id="red"><label for="red">red</label><br>
-			<input type="checkbox" name="favcolor" value="yellow" id="yellow"><label for="yellow">yellow</label><br>
-			<input type="checkbox" name="favcolor" value="orange" id="orange" checked><label for="orange">orange</label><br>
-		
+
+<!--checked attribute means that options will already be selected when the form is displayed-->
 		<input type="submit">
 		</form>
 	</body>
