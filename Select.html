@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Text Email and URL Input Types</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	</head>
+	
+	<body>
+		<form action=" " id="questions" methods="post" name="questions">
+			<!--Allows user to choose b/t multiple options-->
+			<!--fieldset and legend are used to group radio buttons or checkboxes together
+			and provide the question that goes with them>
+			<!__EXAMPLE
+				<feildset>
+				<legend> Question for radio buttons/checkboxes</legend>
+				...
+				<fieldset>-->
+				
+			<fieldset>
+			
+			<legend>What is your favorite color?</legend>	
+			
+			<input type="radio" name="favcolor" value="blue" id="blue"><label for="blue">blue</label><br>
+			<!-- radio button allows user to only pick one answer-->
+			<!--check box allows user to pick multiple answers -->
+			<!-- value = blue is information that will be sent to data base, user will not see value>
+			<!--ID often matches calue-->
+			<!-- add additional options by coping and pasting, then change color-->
+			
+			<input type="radio" name="favcolor" value="red" id="red"><label for="red">red</label><br>
+			<input type="radio" name="favcolor" value="yellow" id="yellow"><label for="yellow">yellow</label><br>
+			<input type="radio" name="favcolor" value="orange" id="orange" checked><label for="orange">orange</label><br>
+		
+		    </fieldset>
+		    <br>
+		    
+		<input type="submit">
+		</form>
+	</body>
+	</html>
